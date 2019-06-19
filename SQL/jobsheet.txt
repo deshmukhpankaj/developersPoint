@@ -1,0 +1,9 @@
+CREATE TABLE `jobsheet` (
+  `jobsheet_no` int(11) NOT NULL,
+  `vechicle_no` varchar(45) DEFAULT NULL,
+  `description` varchar(45) DEFAULT NULL,
+  `estimated_date` date DEFAULT NULL,
+  `estimated_cost` double DEFAULT NULL,
+  `status` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`jobsheet_no`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
